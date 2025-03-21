@@ -97,9 +97,9 @@ def main():
     # Define paths to the datasets (relative to the script location)
     data_dir = "../data/small_datasets/"
     datasets = {
-        "NOAA Temperature": ("noaa_temperature_2020_2021.csv", "temperature"),
-        "NYC Traffic": ("nyc_traffic_nov2023.csv", "vehicle_count"),
-        "USGS Seismic": ("usgs_seismic_jan2024.csv", "amplitude")
+        "NOAA Temperature": ("noaa_temp_2020_2021csv_250320_143200.csv", "temp"),
+        "NYC Traffic": ("madison-avenue-bridge-traffic-nov2023-5dayscsv_250321_020326.csv", "3682"),
+        "USGS Seismic": ("southern_california_earthquakes_2024jancsv.csv", "magnitude")
     }
     
     # Create a directory for results if it doesn't exist
